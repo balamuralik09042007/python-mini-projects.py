@@ -1,4 +1,4 @@
-
+print("=======ATM SYSTEM===========")
 balanc=500
 
 while True: # for loop only repeat one time only
