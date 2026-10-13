@@ -1,20 +1,14 @@
-print("=========SIMPLE CALCULARER============")
-V=[]
-num=int(input("Enter the number of itemss:"))
-for i in range(1,num+1):
-  price=float(input("enter the price of item:"))
-  V.append(price)
+num1=int(input("enter the 1st number:"))
+num2=int(input("enter the 2nd number:"))
+operator=input("enter your operators(+,-,*,/):")
 
-  total=sum(V)
-if total >= 1000:
-   discount=total*0.25
+if operator == "+":
+    print(num1+num2)
+elif operator =="-":
+    print(num1-num2)
+elif operator =="*":
+    print(num1*num2)
+elif operator =="/":
+    print(num1/num2)
 else:
-   discount=0
-
-final_bill=total-discount
-
-print("total:",total)
-print("discount:",discount)
-print("finall_bill:",final_bill)
-  
-       
+    print("ivalid syntex")
