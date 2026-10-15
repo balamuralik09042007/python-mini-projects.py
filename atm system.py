@@ -1,8 +1,6 @@
 print("=======ATM SYSTEM===========")
 balanc=500
 
-while True: # for loop only repeat one time only
-    # while ture - balance=500 condition are true
 
  print("1-withdraw")
  print("2-deposite")
