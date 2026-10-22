@@ -1,4 +1,4 @@
-print("======SIMPLE BILLING SYSTEM======")
+print("====== SHOPE  BILLING SYSTEM======")
 v=[]
 num=int(input("enter the number of items:"))
 for i in range(1, num+1):
