@@ -9,7 +9,7 @@ balanc=500
 
  enter=input("enter the opition[1-4]:")
 
- if enter == "1":# te valu 1 are stored string in enter variable so to give it string
+ if enter == "1":
     amount=float(input("enter the amount:"))
     if amount <= balanc: 
         balanc-=amount
